@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		115383A93CE3145951351B597CD90CC3 /* BEMCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE76D722F5AEF84A137BDF4133CB2C0 /* BEMCircle.m */; };
+		40B93DF2C6360A1DC0B37CEC47604C59 /* Pods-Promethiskos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E794CFB5E5B8F93B404960C882B8924E /* Pods-Promethiskos-dummy.m */; };
+		47B1BABB428E5E65D52CCA7B699D349B /* BEMPermanentPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD4F653D319DDC8A80D676C10D608902 /* BEMPermanentPopupView.m */; };
+		4D4581D9231E83B3F7AE00331FF01273 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1278EAEB5DB293AFAFD98B20E51F04B3 /* Foundation.framework */; };
+		5B283407422DC32673742E0B019E5654 /* BEMAverageLine.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8733A99EB7AFA6AB202B4096186955 /* BEMAverageLine.m */; };
+		60732A764C3071D4FA69C50836B2CAAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1278EAEB5DB293AFAFD98B20E51F04B3 /* Foundation.framework */; };
+		81DA53F5360BFC79A0A586962FCD66D0 /* BEMAverageLine.h in Headers */ = {isa = PBXBuildFile; fileRef = AB67AE53FA9EEEDF11B1C8CE0D3551DF /* BEMAverageLine.h */; };
+		8D38EB3CB837258DA80D947507D8D395 /* BEMSimpleLineGraph-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C41E5193549A9D9E73484DBFE2491D6 /* BEMSimpleLineGraph-dummy.m */; };
+		9E361E6EB15DF124D1ECF6BDAC675DDC /* BEMSimpleLineGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = AAD74AC395034FBF2DCF939CF3BB3DDE /* BEMSimpleLineGraphView.m */; };
+		C0CAC7F50F7D0DA2BA855C83C80F0499 /* BEMLine.h in Headers */ = {isa = PBXBuildFile; fileRef = 18DC2954D33982B62D8FC0A66002417E /* BEMLine.h */; };
+		C16E1B0DD244158EE1632FAF5787B463 /* BEMCircle.h in Headers */ = {isa = PBXBuildFile; fileRef = D66446214C5F053BA11749E7ED321904 /* BEMCircle.h */; };
+		C64AA3FCA54169D0226F58D43F509997 /* BEMSimpleLineGraphView.h in Headers */ = {isa = PBXBuildFile; fileRef = A64CC815CDADF65F7298F61DA3038014 /* BEMSimpleLineGraphView.h */; };
+		C9E4C4A2B8B0149379AB51CB1D694D0C /* BEMPermanentPopupView.h in Headers */ = {isa = PBXBuildFile; fileRef = 48CEF861A7298853F3ADC69718461856 /* BEMPermanentPopupView.h */; };
+		EB16F3B36549EF37EFF0FAE2B3AB2AC5 /* BEMLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 43C450D455A2FC73550762C4FAF140F2 /* BEMLine.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		663659FDBDE7FCB7A0EF2C9E5B5429AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA1CE86493C9780A6792658095A8648E;
+			remoteInfo = BEMSimpleLineGraph;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B5D0821CEC2AEA1626A7BF52913DC9B /* BEMSimpleLineGraph.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BEMSimpleLineGraph.xcconfig; sourceTree = "<group>"; };
+		1278EAEB5DB293AFAFD98B20E51F04B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		18DC2954D33982B62D8FC0A66002417E /* BEMLine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMLine.h; path = Classes/BEMLine.h; sourceTree = "<group>"; };
+		2C41E5193549A9D9E73484DBFE2491D6 /* BEMSimpleLineGraph-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BEMSimpleLineGraph-dummy.m"; sourceTree = "<group>"; };
+		2E0B1CF43561EFA478F77F513B9FDEF4 /* libPods-Promethiskos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Promethiskos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31E209249B68099E214527AA6A4C3E97 /* Pods-Promethiskos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Promethiskos.release.xcconfig"; sourceTree = "<group>"; };
+		43C450D455A2FC73550762C4FAF140F2 /* BEMLine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMLine.m; path = Classes/BEMLine.m; sourceTree = "<group>"; };
+		48CEF861A7298853F3ADC69718461856 /* BEMPermanentPopupView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMPermanentPopupView.h; path = Classes/BEMPermanentPopupView.h; sourceTree = "<group>"; };
+		92CB021CA290233D194AA236A15235AF /* BEMSimpleLineGraph-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "BEMSimpleLineGraph-Private.xcconfig"; sourceTree = "<group>"; };
+		A64CC815CDADF65F7298F61DA3038014 /* BEMSimpleLineGraphView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMSimpleLineGraphView.h; path = Classes/BEMSimpleLineGraphView.h; sourceTree = "<group>"; };
+		AAD74AC395034FBF2DCF939CF3BB3DDE /* BEMSimpleLineGraphView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMSimpleLineGraphView.m; path = Classes/BEMSimpleLineGraphView.m; sourceTree = "<group>"; };
+		AB67AE53FA9EEEDF11B1C8CE0D3551DF /* BEMAverageLine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMAverageLine.h; path = Classes/BEMAverageLine.h; sourceTree = "<group>"; };
+		ADE538926CC7B5D7A2D4A2BBFCA446D3 /* libBEMSimpleLineGraph.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBEMSimpleLineGraph.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B03AE33C44022398DD86A563AB995D33 /* Pods-Promethiskos-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Promethiskos-resources.sh"; sourceTree = "<group>"; };
+		B2B9273723C3480931F8423347F59FB0 /* Pods-Promethiskos-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Promethiskos-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BFE76D722F5AEF84A137BDF4133CB2C0 /* BEMCircle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMCircle.m; path = Classes/BEMCircle.m; sourceTree = "<group>"; };
+		CFD282D1FDC629AFB50DC2BF18828F48 /* Pods-Promethiskos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Promethiskos.debug.xcconfig"; sourceTree = "<group>"; };
+		D1CE23663D9528D8BE4F4A9E01B9419D /* BEMSimpleLineGraph-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BEMSimpleLineGraph-prefix.pch"; sourceTree = "<group>"; };
+		D66446214C5F053BA11749E7ED321904 /* BEMCircle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BEMCircle.h; path = Classes/BEMCircle.h; sourceTree = "<group>"; };
+		E794CFB5E5B8F93B404960C882B8924E /* Pods-Promethiskos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Promethiskos-dummy.m"; sourceTree = "<group>"; };
+		EE8733A99EB7AFA6AB202B4096186955 /* BEMAverageLine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMAverageLine.m; path = Classes/BEMAverageLine.m; sourceTree = "<group>"; };
+		F1CA2F18148605E634615403F8709036 /* Pods-Promethiskos-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Promethiskos-acknowledgements.plist"; sourceTree = "<group>"; };
+		FD4F653D319DDC8A80D676C10D608902 /* BEMPermanentPopupView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BEMPermanentPopupView.m; path = Classes/BEMPermanentPopupView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20D1DB829CA1F081932092DDF9492BD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D4581D9231E83B3F7AE00331FF01273 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B289715987422713DCBDD54E4D2226B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60732A764C3071D4FA69C50836B2CAAD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1278EAEB5DB293AFAFD98B20E51F04B3 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		55AA6EDEF55E2C083AE06A9BA19874B5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5855AC61550E8705081C377AA5EC3AE /* Pods-Promethiskos */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		794744D2F091A7C11D73AAB7CBE1A255 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEF645868B526D392A277A3DB4828E90 /* BEMSimpleLineGraph */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				794744D2F091A7C11D73AAB7CBE1A255 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				55AA6EDEF55E2C083AE06A9BA19874B5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A820693413A378FC2FE05C0B2DC78112 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B5D0821CEC2AEA1626A7BF52913DC9B /* BEMSimpleLineGraph.xcconfig */,
+				92CB021CA290233D194AA236A15235AF /* BEMSimpleLineGraph-Private.xcconfig */,
+				2C41E5193549A9D9E73484DBFE2491D6 /* BEMSimpleLineGraph-dummy.m */,
+				D1CE23663D9528D8BE4F4A9E01B9419D /* BEMSimpleLineGraph-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BEMSimpleLineGraph";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADE538926CC7B5D7A2D4A2BBFCA446D3 /* libBEMSimpleLineGraph.a */,
+				2E0B1CF43561EFA478F77F513B9FDEF4 /* libPods-Promethiskos.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5855AC61550E8705081C377AA5EC3AE /* Pods-Promethiskos */ = {
+			isa = PBXGroup;
+			children = (
+				B2B9273723C3480931F8423347F59FB0 /* Pods-Promethiskos-acknowledgements.markdown */,
+				F1CA2F18148605E634615403F8709036 /* Pods-Promethiskos-acknowledgements.plist */,
+				E794CFB5E5B8F93B404960C882B8924E /* Pods-Promethiskos-dummy.m */,
+				B03AE33C44022398DD86A563AB995D33 /* Pods-Promethiskos-resources.sh */,
+				CFD282D1FDC629AFB50DC2BF18828F48 /* Pods-Promethiskos.debug.xcconfig */,
+				31E209249B68099E214527AA6A4C3E97 /* Pods-Promethiskos.release.xcconfig */,
+			);
+			name = "Pods-Promethiskos";
+			path = "Target Support Files/Pods-Promethiskos";
+			sourceTree = "<group>";
+		};
+		DEF645868B526D392A277A3DB4828E90 /* BEMSimpleLineGraph */ = {
+			isa = PBXGroup;
+			children = (
+				AB67AE53FA9EEEDF11B1C8CE0D3551DF /* BEMAverageLine.h */,
+				EE8733A99EB7AFA6AB202B4096186955 /* BEMAverageLine.m */,
+				D66446214C5F053BA11749E7ED321904 /* BEMCircle.h */,
+				BFE76D722F5AEF84A137BDF4133CB2C0 /* BEMCircle.m */,
+				18DC2954D33982B62D8FC0A66002417E /* BEMLine.h */,
+				43C450D455A2FC73550762C4FAF140F2 /* BEMLine.m */,
+				48CEF861A7298853F3ADC69718461856 /* BEMPermanentPopupView.h */,
+				FD4F653D319DDC8A80D676C10D608902 /* BEMPermanentPopupView.m */,
+				A64CC815CDADF65F7298F61DA3038014 /* BEMSimpleLineGraphView.h */,
+				AAD74AC395034FBF2DCF939CF3BB3DDE /* BEMSimpleLineGraphView.m */,
+				A820693413A378FC2FE05C0B2DC78112 /* Support Files */,
+			);
+			path = BEMSimpleLineGraph;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		027831E004BB54FC0DA692E57B5F079E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81DA53F5360BFC79A0A586962FCD66D0 /* BEMAverageLine.h in Headers */,
+				C16E1B0DD244158EE1632FAF5787B463 /* BEMCircle.h in Headers */,
+				C0CAC7F50F7D0DA2BA855C83C80F0499 /* BEMLine.h in Headers */,
+				C9E4C4A2B8B0149379AB51CB1D694D0C /* BEMPermanentPopupView.h in Headers */,
+				C64AA3FCA54169D0226F58D43F509997 /* BEMSimpleLineGraphView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		27FC481FA668E1ECE79D2ED6DACAE179 /* Pods-Promethiskos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C58714940A4A3B82A6895E795F30AB1 /* Build configuration list for PBXNativeTarget "Pods-Promethiskos" */;
+			buildPhases = (
+				6BA0D7608BB85453C2251801C02CD3CB /* Sources */,
+				6B289715987422713DCBDD54E4D2226B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				53CEB36864D6DA19786AAB88EA54D393 /* PBXTargetDependency */,
+			);
+			name = "Pods-Promethiskos";
+			productName = "Pods-Promethiskos";
+			productReference = 2E0B1CF43561EFA478F77F513B9FDEF4 /* libPods-Promethiskos.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AA1CE86493C9780A6792658095A8648E /* BEMSimpleLineGraph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA262DEA929B15A8F54B53EDDF693924 /* Build configuration list for PBXNativeTarget "BEMSimpleLineGraph" */;
+			buildPhases = (
+				0E367942D97D0DFDC86799B2DA54AFD8 /* Sources */,
+				20D1DB829CA1F081932092DDF9492BD7 /* Frameworks */,
+				027831E004BB54FC0DA692E57B5F079E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BEMSimpleLineGraph;
+			productName = BEMSimpleLineGraph;
+			productReference = ADE538926CC7B5D7A2D4A2BBFCA446D3 /* libBEMSimpleLineGraph.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA1CE86493C9780A6792658095A8648E /* BEMSimpleLineGraph */,
+				27FC481FA668E1ECE79D2ED6DACAE179 /* Pods-Promethiskos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E367942D97D0DFDC86799B2DA54AFD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B283407422DC32673742E0B019E5654 /* BEMAverageLine.m in Sources */,
+				115383A93CE3145951351B597CD90CC3 /* BEMCircle.m in Sources */,
+				EB16F3B36549EF37EFF0FAE2B3AB2AC5 /* BEMLine.m in Sources */,
+				47B1BABB428E5E65D52CCA7B699D349B /* BEMPermanentPopupView.m in Sources */,
+				8D38EB3CB837258DA80D947507D8D395 /* BEMSimpleLineGraph-dummy.m in Sources */,
+				9E361E6EB15DF124D1ECF6BDAC675DDC /* BEMSimpleLineGraphView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BA0D7608BB85453C2251801C02CD3CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B93DF2C6360A1DC0B37CEC47604C59 /* Pods-Promethiskos-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		53CEB36864D6DA19786AAB88EA54D393 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BEMSimpleLineGraph;
+			target = AA1CE86493C9780A6792658095A8648E /* BEMSimpleLineGraph */;
+			targetProxy = 663659FDBDE7FCB7A0EF2C9E5B5429AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B59E52A0BA61D5C0D6D529B47AD02D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92CB021CA290233D194AA236A15235AF /* BEMSimpleLineGraph-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BEMSimpleLineGraph/BEMSimpleLineGraph-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		407C55630C34AE3879EDEEF897B0B6A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFD282D1FDC629AFB50DC2BF18828F48 /* Pods-Promethiskos.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		511103F7F15A7E8F83B268EA03462CAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7303937EC57FE1C8A71B563D59E79A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31E209249B68099E214527AA6A4C3E97 /* Pods-Promethiskos.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		90ACB0E5ADEC8DAA437732B062323DD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92CB021CA290233D194AA236A15235AF /* BEMSimpleLineGraph-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/BEMSimpleLineGraph/BEMSimpleLineGraph-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA05AF9C3A14EE0E32F42C6E6D42D34F /* Debug */,
+				511103F7F15A7E8F83B268EA03462CAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C58714940A4A3B82A6895E795F30AB1 /* Build configuration list for PBXNativeTarget "Pods-Promethiskos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				407C55630C34AE3879EDEEF897B0B6A9 /* Debug */,
+				7303937EC57FE1C8A71B563D59E79A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA262DEA929B15A8F54B53EDDF693924 /* Build configuration list for PBXNativeTarget "BEMSimpleLineGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B59E52A0BA61D5C0D6D529B47AD02D1 /* Debug */,
+				90ACB0E5ADEC8DAA437732B062323DD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
