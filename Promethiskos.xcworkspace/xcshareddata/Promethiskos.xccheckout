@@ -10,14 +10,14 @@
 	<string>Promethiskos</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>D23E8080489905D345C057BB0B66961F47D53B7F</key>
+		<key>7D485183537372E9911055443D76004AE81B03CE</key>
 		<string>github.com:stuartnelson3/promethiskos.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Promethiskos.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>D23E8080489905D345C057BB0B66961F47D53B7F</key>
+		<key>7D485183537372E9911055443D76004AE81B03CE</key>
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>D23E8080489905D345C057BB0B66961F47D53B7F</string>
+	<string>7D485183537372E9911055443D76004AE81B03CE</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>D23E8080489905D345C057BB0B66961F47D53B7F</string>
+			<string>7D485183537372E9911055443D76004AE81B03CE</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Promethiskos</string>
 		</dict>

@@ -69,9 +69,17 @@
         [g fetchJSON];
     }
 
-    //    [NSTimer scheduledTimerWithTimeInterval:5.0  target:self selector:@selector(createLines) userInfo:nil repeats:YES];
+    [NSTimer scheduledTimerWithTimeInterval:30.0 target:self selector:@selector(refresh) userInfo:nil repeats:YES];
 
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)refresh
+{
+    for (NSString* url in self.graphs) {
+        Graph* g = self.graphs[url];
+        [g fetchJSON];
+    }
 }
 
 - (CGFloat)maxValueForLineGraph:(BEMSimpleLineGraphView*)graph
