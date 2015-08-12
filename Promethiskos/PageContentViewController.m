@@ -1,31 +1,23 @@
 //
-//  ViewController.m
+//  PageContentViewController.m
 //  Promethiskos
 //
-//  Created by Stuart Nelson on 8/4/15.
+//  Created by Stuart Nelson on 8/12/15.
 //  Copyright (c) 2015 Stuart Nelson. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "PageContentViewController.h"
 
-@interface ViewController ()
+@interface PageContentViewController ()
 @property (strong, nonatomic) NSData* data;
-@property (strong, nonatomic) BEMSimpleLineGraphView* myGraph;
 @property (strong, nonatomic) NSMutableDictionary* graphs;
 @end
 
-@implementation ViewController
+@implementation PageContentViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
-    _graphs = [[NSMutableDictionary alloc] init];
-    NSMutableDictionary* urlToColor = [NSMutableDictionary dictionaryWithDictionary:@{ @"http://graphite.int.s-cloud.net/render?format=json&from=-3600seconds&target=sumSeries(perSecond(ampelmann.a*.*.public.FRONTEND.5xx))&until=now" : [UIColor redColor],
-        @"http://graphite.int.s-cloud.net/render?format=json&from=-3600seconds&target=sumSeries(perSecond(ampelmann.a*.*.public.FRONTEND.2xx))&until=now" : [UIColor greenColor],
-        @"http://graphite.int.s-cloud.net/render?format=json&from=-3600seconds&target=sumSeries(perSecond(ampelmann.a*.*.public.FRONTEND.3xx))&until=now" : [UIColor blueColor],
-        @"http://graphite.int.s-cloud.net/render?format=json&from=-3600seconds&target=sumSeries(perSecond(ampelmann.a*.*.public.FRONTEND.4xx))&until=now" : [UIColor purpleColor] }];
-
     CGRect screenBound = [[UIScreen mainScreen] bounds];
     CGSize screenSize = screenBound.size;
     CGFloat screenWidth = screenSize.width;
@@ -33,8 +25,7 @@
 
     UIColor* clear = [UIColor clearColor];
     BOOL showLabel = YES;
-    for (NSString* url in urlToColor) {
-
+    for (NSString* url in self.urlToColor) {
         BEMSimpleLineGraphView* graph = [[BEMSimpleLineGraphView alloc] initWithFrame:CGRectMake(0, 0, screenWidth, screenHeight)];
 
         graph.delegate = self;
@@ -62,16 +53,22 @@
         // set alphaBottom for 5xx to have solid appearance
         // will also need to scale it
         // custom colors for graphs
-        Graph* g = [[Graph alloc] initWithGraph:graph withColor:urlToColor[url] withURL:url];
+        Graph* g = [[Graph alloc] initWithGraph:graph withColor:self.urlToColor[url] withURL:url];
         graph.dataSource = g;
 
         self.graphs[url] = g;
         [g fetchJSON];
     }
+    // double check this doesn't mess up when switching views
+    // or if i need to unregister the timer
+    //    [NSTimer scheduledTimerWithTimeInterval:30.0 target:self selector:@selector(refresh) userInfo:nil repeats:YES];
+    // Do any additional setup after loading the view.
+}
 
-    [NSTimer scheduledTimerWithTimeInterval:30.0 target:self selector:@selector(refresh) userInfo:nil repeats:YES];
-
-    // Do any additional setup after loading the view, typically from a nib.
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 
 - (void)refresh
@@ -102,10 +99,14 @@
     return (CGFloat)10000;
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
 }
+*/
 
 @end

@@ -11,11 +11,12 @@
 		83D91367724FBEEE7E70FDE3 /* libPods-Promethiskos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF57B39F46B90F5E3FFD03A /* libPods-Promethiskos.a */; };
 		83EF2B261B70FD2400FEEB3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EF2B251B70FD2400FEEB3A /* main.m */; };
 		83EF2B291B70FD2400FEEB3A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EF2B281B70FD2400FEEB3A /* AppDelegate.m */; };
-		83EF2B2C1B70FD2400FEEB3A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EF2B2B1B70FD2400FEEB3A /* ViewController.m */; };
+		83EF2B2C1B70FD2400FEEB3A /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EF2B2B1B70FD2400FEEB3A /* RootViewController.m */; };
 		83EF2B2F1B70FD2400FEEB3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83EF2B2D1B70FD2400FEEB3A /* Main.storyboard */; };
 		83EF2B311B70FD2400FEEB3A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83EF2B301B70FD2400FEEB3A /* Images.xcassets */; };
 		83EF2B341B70FD2400FEEB3A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83EF2B321B70FD2400FEEB3A /* LaunchScreen.xib */; };
 		83EF2B401B70FD2400FEEB3A /* PromethiskosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83EF2B3F1B70FD2400FEEB3A /* PromethiskosTests.m */; };
+		83F7D6CE1B7B83BB00FC49D7 /* PageContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F7D6CD1B7B83BB00FC49D7 /* PageContentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,14 +39,16 @@
 		83EF2B251B70FD2400FEEB3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		83EF2B271B70FD2400FEEB3A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		83EF2B281B70FD2400FEEB3A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		83EF2B2A1B70FD2400FEEB3A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		83EF2B2B1B70FD2400FEEB3A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		83EF2B2A1B70FD2400FEEB3A /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		83EF2B2B1B70FD2400FEEB3A /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		83EF2B2E1B70FD2400FEEB3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83EF2B301B70FD2400FEEB3A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		83EF2B331B70FD2400FEEB3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		83EF2B391B70FD2400FEEB3A /* PromethiskosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PromethiskosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83EF2B3E1B70FD2400FEEB3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83EF2B3F1B70FD2400FEEB3A /* PromethiskosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PromethiskosTests.m; sourceTree = "<group>"; };
+		83F7D6CC1B7B83BB00FC49D7 /* PageContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageContentViewController.h; sourceTree = "<group>"; };
+		83F7D6CD1B7B83BB00FC49D7 /* PageContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageContentViewController.m; sourceTree = "<group>"; };
 		DEF57B39F46B90F5E3FFD03A /* libPods-Promethiskos.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Promethiskos.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -101,10 +104,12 @@
 			children = (
 				83EF2B271B70FD2400FEEB3A /* AppDelegate.h */,
 				83EF2B281B70FD2400FEEB3A /* AppDelegate.m */,
-				83EF2B2A1B70FD2400FEEB3A /* ViewController.h */,
-				83EF2B2B1B70FD2400FEEB3A /* ViewController.m */,
+				83EF2B2A1B70FD2400FEEB3A /* RootViewController.h */,
+				83EF2B2B1B70FD2400FEEB3A /* RootViewController.m */,
 				835207F61B75340F00B28688 /* Graph.h */,
 				835207F71B75340F00B28688 /* Graph.m */,
+				83F7D6CC1B7B83BB00FC49D7 /* PageContentViewController.h */,
+				83F7D6CD1B7B83BB00FC49D7 /* PageContentViewController.m */,
 				83EF2B2D1B70FD2400FEEB3A /* Main.storyboard */,
 				83EF2B301B70FD2400FEEB3A /* Images.xcassets */,
 				83EF2B321B70FD2400FEEB3A /* LaunchScreen.xib */,
@@ -284,7 +289,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				835207F81B75340F00B28688 /* Graph.m in Sources */,
-				83EF2B2C1B70FD2400FEEB3A /* ViewController.m in Sources */,
+				83EF2B2C1B70FD2400FEEB3A /* RootViewController.m in Sources */,
+				83F7D6CE1B7B83BB00FC49D7 /* PageContentViewController.m in Sources */,
 				83EF2B291B70FD2400FEEB3A /* AppDelegate.m in Sources */,
 				83EF2B261B70FD2400FEEB3A /* main.m in Sources */,
 			);

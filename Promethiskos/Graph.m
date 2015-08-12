@@ -30,7 +30,7 @@
         if ([color isEqual:[UIColor redColor]]) {
             graph.positionYAxisRight = YES;
             graph.colorBottom = color;
-            graph.alphaBottom = 0.7;
+            graph.alphaBottom = 0.5;
             graph.enableYAxisLabel = YES;
 
             // set graph delegate to self to return alternate max/min yAxis values
