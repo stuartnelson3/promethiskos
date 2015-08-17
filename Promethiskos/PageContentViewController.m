@@ -31,8 +31,9 @@
         graph.delegate = self;
         [self.view addSubview:graph];
 
-        graph.enableTouchReport = YES;
-        graph.enablePopUpReport = YES;
+        // enabling this removes the ability to swipe left/right
+        //        graph.enableTouchReport = YES;
+        //        graph.enablePopUpReport = YES;
         if (showLabel) {
             graph.enableYAxisLabel = YES;
             showLabel = NO;
